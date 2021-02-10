@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-hk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>成语</title>
+	<link rel="icon" href="https://ss2.meipian.me/users/16486831/6e75f910-9ccf-11ea-a6f0-7f3157be5573.png-mobile" type="image/x-icon">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			font-family: 微软雅黑;
+			background-color: lightblue;
+			-webkit-user-select: none;
+			user-select: none;
+		}
+		.text{
+			/*background-color: white;*/
+			width:680px;
+			margin: 0 auto;
+		}
+		.footer{
+			margin: 0;
+			padding: 0;
+			text-align: center;
+    		position: fixed;
+			width: 100vw;
+			bottom: 0px;
+    		font-size: 12px;
+		}
+		a{
+			text-decoration: none;
+			color: dimgray;
+			transition: color 0.5s ease 0s;
+		}
+		a:hover{
+			color: black;
+			transition: color 0.5s ease 0s;
+		}
+		.darkmode-layer, .darkmode-toggle {
+  			z-index: 500;
+		}
+	</style>
+</head>
+<body>
+	<script>
+		function tishi()
+		{
+    		alert("1.成語原於《田家炳中學初中自學計劃資料册》2018年修訂版\n2.解釋僅供參考");
+		}
+	</script>
+	<div class="text">
+		<h1>成語</h1>
+		<strong>中一級</strong><br>
+		<a href="/f-1">中一級成語(普通話拼音)</a><br>
+		<a href="/f-1-py-zhhk">中一級成語(粵語拼音)</a><br>
+		<br>
+		<strong>中二級</strong><br>
+		<a href="/f-2">中二級成語(普通話拼音)</a><br>
+		<a href="/f-2-py-zhhk">中二級成語(粵語拼音)</a><br>
+		<br>
+		<strong>中三級</strong><br>
+		<a href="/f-3">中三級成語(普通話拼音)</a><br>
+		<a href="/f-3-py-zhhk">中三級成語(粵語拼音)</a><br>
+	</div>
+	<div class="footer">
+		<p>© 2020 CYY | <a onclick="tishi();return false;" style="cursor:pointer">注意事項</a></p>
+	</div>
+	<script src="https://cdn.rthsoftware.cn/cached-7acc4a9938969350cffe1c9f4455fabe/ct/darkmodejs/darkmodeindex.js"></script>
+	<script>
+  		function addDarkmodeWidget() {
+    		new Darkmode().showWidget();
+  		}
+  		window.addEventListener('load', addDarkmodeWidget);
+	</script>
+</body>
+</html>

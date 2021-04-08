@@ -7,29 +7,29 @@
     <link rel="icon" href="./img/index-icon.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <style>
-        body{
+        body {
             background-color: lightblue;
             font-family: 微软雅黑;
         }
-        .text{
+        .text {
             /*background-color: white;*/
-            width:680px;
+            width: 680px;
             margin: 0 auto;
         }
-        h1{
+        h1 {
             -webkit-user-select: none;
             user-select: none;
         }
-        .link{
+        .link {
             -webkit-user-select: none;
             user-select: none;
         }
-        a{
+        a {
             text-decoration: none;
             color: dimgray;
             transition: color 0.3s ease 0s;
         }
-        .top{
+        .top {
             width: auto;
             height: auto;
             position: fixed;
@@ -38,9 +38,14 @@
             -webkit-user-select: none;
             user-select: none;
         }
-        a:hover{
+        a:hover {
             color: black;
             transition: color 0.3s ease 0s;
+        }
+        @media only screen and (max-width: 725px) {
+            .text {
+                width: 90%
+            }
         }
         .darkmode-layer, .darkmode-toggle {
             z-index: 500;

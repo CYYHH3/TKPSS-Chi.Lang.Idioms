@@ -1,0 +1,38 @@
+body {
+    background-color: lightblue;
+    font-family: 微软雅黑;
+}
+.text {
+    /*background-color: white;*/
+    width: 680px;
+    margin: 0 auto;
+}
+h1 {
+    -webkit-user-select: none;
+    user-select: none;
+}
+.link {
+    -webkit-user-select: none;
+    user-select: none;
+}
+a {
+    text-decoration: none;
+    color: dimgray;
+    transition: color 0.3s ease 0s;
+}
+a:hover {
+    color: black;
+    transition: color 0.3s ease 0s;
+}
+audio{
+    height: 30px;
+    max-width: 300px;
+}
+@media only screen and (max-width: 725px) {
+    .text {
+        width: 95%;
+    }
+}
+.darkmode-layer, .darkmode-toggle {
+    z-index: 500;
+}

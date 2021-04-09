@@ -72,15 +72,17 @@
     <div class="footer">
         <p>© 2021 CYY | <a onclick="tishi();return false;" style="cursor:pointer">注意事項</a></p>
     </div>
-    <script src="./js/darkmode-index.js"></script>
+    <script src="./js/darkmode.min.js"></script>
     <script>
         function addDarkmodeWidget() {
     	    new Darkmode().showWidget();
-            /*const options = {
-                left: '32px', // default: 'unset'
+            const options = {
+                bottom: '68px', // default: '32px'
+                right: '10px', // default: '32px'
+                label: '🌓', // default: ''
             }
             const darkmode = new Darkmode(options);
-            darkmode.showWidget();*/
+            darkmode.showWidget();
         }
         window.addEventListener('load', addDarkmodeWidget);
     </script>

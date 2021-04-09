@@ -76,12 +76,12 @@
     <script>
         function addDarkmodeWidget() {
     	    new Darkmode().showWidget();
+            const options = {
+                left: '32px', // default: 'unset'
+            }
+            const darkmode = new Darkmode(options);
+            darkmode.showWidget();
         }
-        const options = {
-            left: '32px', // default: 'unset'
-        }
-        const darkmode = new Darkmode(options);
-        darkmode.showWidget();
         window.addEventListener('load', addDarkmodeWidget);
     </script>
 </body>

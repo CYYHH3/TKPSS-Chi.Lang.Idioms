@@ -50,11 +50,6 @@
     </style>
 </head>
 <body>
-    <script>
-        function tishi() {
-    	    alert("1.成語原於《田家炳中學初中自學計劃資料册》2018年修訂版\n2.解釋僅供參考");
-        }
-    </script>
     <div class="text">
         <h1>成語</h1>
         <strong>中一級</strong><br>
@@ -70,8 +65,13 @@
         <a href="./f3-py-zhhk">中三級成語(粵語拼音)</a><br>
     </div>
     <div class="footer">
-        <p>© 2021 CYY | <a onclick="tishi();return false;" style="cursor:pointer">注意事項</a></p>
+        <p>© 2021 CYY | <a onclick="notice();return false;" style="cursor:pointer">注意事項</a></p>
     </div>
+    <script>
+        function notice() {
+    	    alert("1. 成語原於《田家炳中學初中自學計劃資料册》2018年修訂版\n2. 解釋僅供參考");
+        }
+    </script>
     <script src="./js/darkmode-index.js"></script>
     <script>
         function addDarkmodeWidget() {
